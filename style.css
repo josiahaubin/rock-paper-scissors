@@ -1,3 +1,6 @@
 .images {
   height: 45vh;
 }
+::-webkit-scrollbar {
+  display: none;
+}
