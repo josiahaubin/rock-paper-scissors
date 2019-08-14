@@ -2,10 +2,22 @@
   height: 45vh;
 }
 .images:hover {
-  border: 5px solid black;
-  box-shadow: 0px 0px 5px 5px black;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 4px black;
   cursor: pointer;
 }
 ::-webkit-scrollbar {
   display: none;
+}
+body {
+  background: radial-gradient(circle, rgba(129,157,217,1) 0%, rgba(148,216,233,1) 100%);
+}
+.rock-title {
+  font-family: 'Rock Salt', cursive;
+}
+.paper-title {
+  font-family: 'Cinzel', serif;
+}
+.scissors-title {
+  font-family: 'Coustard', serif;
 }
